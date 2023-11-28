@@ -1,9 +1,0 @@
-version: "3.8"
-services:
-  oppenheinmer_app:
-    container_name: oppenheinmer_app
-    build:
-      context: ./docker/app
-      dockerfile: Dockerfile
-    ports:
-      - 8080:8080
